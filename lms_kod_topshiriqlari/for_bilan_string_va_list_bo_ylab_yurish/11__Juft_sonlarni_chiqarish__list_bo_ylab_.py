@@ -1,0 +1,6 @@
+n = int(input())
+numbers = list(map(int, input().split()))
+count = 0
+for x in numbers:
+    if x % 2 == 0:
+        print(x)
