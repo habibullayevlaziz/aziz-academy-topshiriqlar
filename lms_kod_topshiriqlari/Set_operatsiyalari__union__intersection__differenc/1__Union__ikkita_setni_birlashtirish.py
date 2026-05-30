@@ -1,0 +1,5 @@
+a = set(map(int, input().split()))
+b = set(map(int, input().split()))
+union_set = a.union(b)
+result = sorted(union_set)
+print(*(result))
