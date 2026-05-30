@@ -1,0 +1,15 @@
+n = int(input())
+d = {}
+for _ in range(n):
+    k, v = input().split()
+    d[k] = int(v)
+for key in d:
+    print(key)
+        
+    
+# n = int(input())
+# d = {}
+# for _ in range(n):
+#     k, v = input().split()
+#     d[k] = int(v)
+# har bir kalitni alohida chiqaring
