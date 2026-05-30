@@ -1,0 +1,7 @@
+n = int(input())
+lst = list(map(int, input().split()))
+t = tuple(lst)
+print(t)
+# n = int(input())
+# lst = list(map(int, input().split()))
+# Uni tuple ga o'tkazing va chiqaring.
