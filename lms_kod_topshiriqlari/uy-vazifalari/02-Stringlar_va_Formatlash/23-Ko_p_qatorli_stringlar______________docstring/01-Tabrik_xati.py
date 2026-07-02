@@ -1,0 +1,6 @@
+ism = input()
+yuboruvchi = input()
+print(f"Hurmatli {ism},")
+print("Sizni tabriklaymiz!")
+print("Hurmat bilan,")
+print(yuboruvchi)
