@@ -1,0 +1,1 @@
+import sys; l = sys.stdin.read().splitlines(); a = l[0].split(); a.insert(int(l[1]), l[2]); print(*a)
