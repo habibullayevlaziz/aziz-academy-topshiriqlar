@@ -1,0 +1,5 @@
+toplam1 = set(map(int, input().split()))
+toplam2 = set(map(int, input().split()))
+umumiy_elementlar = toplam1.intersection(toplam2)
+natija = sorted(list(umumiy_elementlar))
+print(*(natija))
