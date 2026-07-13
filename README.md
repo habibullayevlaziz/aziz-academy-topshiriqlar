@@ -4,25 +4,35 @@
 
 ## 📊 Umumiy progress
 
-`█████░░░░░░░░░░░░░░░` **25%**  (44/179 mavzu)
+`░░░░░░░░░░░░░░░░░░░░` **1%**  (1/179 mavzu)
 
-- ⭐ Jami ball: **46768**
-- 📤 GitHubga yuborilgan topshiriqlar: **915**
+- ⭐ Jami ball: **47432**
+- 📤 GitHubga yuborilgan topshiriqlar: **917**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
-**MODUL 5 — Comprehensions** → **Dict comprehension — mapping va filtrlash**
+**MODUL 1 — Asoslar** → **Dasturlashga kirish — Python nima va nega o'rganamiz**
 
-➡️ Keyingi mavzu: *List comprehension — kirish ⭐ — [x for x in ...]*
+➡️ Keyingi mavzu: *O'rnatish va muhit — Python, interpreter, IDE sozlash*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
 
-- ⬜ List comprehension — kirish ⭐ — [x for x in ...]
-- ✅ List comprehension — shartli — [x for x in ... if ...]
-- ✅ Dict comprehension — mapping va filtrlash  ← yetgan joyingiz
-- ⬜ Set comprehension — takrorlanmas natijalar
-- ⬜ 🛠 Amaliy: Ma'lumotni qayta ishlash — comprehension bilan tozalash
+- ✅ Dasturlashga kirish — Python nima va nega o'rganamiz  ← yetgan joyingiz
+- ⬜ O'rnatish va muhit — Python, interpreter, IDE sozlash
+- ⬜ Birinchi dastur ⭐ — print() va kommentlar
+- ⬜ O'zgaruvchilar ⭐ — yaratish va nomlash qoidalari (snake_case)
+- ⬜ Sonlar: int va float — butun va kasr sonlar
+- ⬜ Stringlar — kirish: matn, qo'shtirnoqlar, len()
+- ⬜ Bool va mantiq — True/False, mantiqiy ifodalar
+- ⬜ input() bilan ishlash ⭐ — foydalanuvchidan ma'lumot olish
+- ⬜ Arifmetik operatorlar — + - * / // % ** va prioritet
+- ⬜ Mantiqiy operatorlar — and, or, not
+- ⬜ Solishtirish operatorlari — == != > < >= <=
+- ⬜ Type casting ⭐ — type(), int(), float(), str(), bool()
+- ⬜ 🛠 Mini-loyiha: Kalkulyator — ikki son ustida amallar (CLI)
+- ⬜ Kod madaniyati: PEP8 — bo'sh joy, nomlash, o'qiluvchanlik
+- ⬜ Xatolik turlari 🔁 — syntax vs runtime, xatoni o'qish
 
 </details>
 
@@ -30,11 +40,11 @@
 
 | # | Modul | Progress | Mavzular |
 |---|-------|----------|----------|
-| 1 | ✅ Asoslar | `██████████` 100% | 15/15 |
-| 2 | 🔸 Stringlar va Formatlash | `███░░░░░░░` 30% | 3/10 |
-| 3 | 🔸 Shartlar va Sikllar | `█████████░` 87% | 13/15 |
-| 4 | 🔸 Ma'lumot Tuzilmalari | `██████░░░░` 56% | 10/18 |
-| 5 | 🔸 Comprehensions | `██████░░░░` 60% | 3/5 |
+| 1 | 🔸 Asoslar | `█░░░░░░░░░` 7% | 1/15 |
+| 2 | ⬜ Stringlar va Formatlash | `░░░░░░░░░░` 0% | 0/10 |
+| 3 | ⬜ Shartlar va Sikllar | `░░░░░░░░░░` 0% | 0/15 |
+| 4 | ⬜ Ma'lumot Tuzilmalari | `░░░░░░░░░░` 0% | 0/18 |
+| 5 | ⬜ Comprehensions | `░░░░░░░░░░` 0% | 0/5 |
 | 6 | ⬜ Funksiyalar | `░░░░░░░░░░` 0% | 0/12 |
 | 7 | ⬜ Modullar va Fayllar | `░░░░░░░░░░` 0% | 0/15 |
 | 8 | ⬜ Xatolar, Test va Debug | `░░░░░░░░░░` 0% | 0/11 |
@@ -53,4 +63,4 @@
 - `lms_yozma_topshiriqlari/` — yozma javoblar
 
 ---
-<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-07-12 06:30</sub>
+<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-07-13 06:36</sub>
