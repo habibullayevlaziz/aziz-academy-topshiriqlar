@@ -1,0 +1,5 @@
+print("=== KARTA ===")
+print(f"Ism: Aziz Karimov")
+print(f"Kurs: Python")
+print(f"Shahar: Toshkent")
+print(f"Ism uzunligi: 12")
