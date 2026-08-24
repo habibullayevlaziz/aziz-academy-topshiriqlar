@@ -1,0 +1,5 @@
+print(f"Dushanba: True")
+print(f"Seshanba: True")
+print(f"Chorshanba: False")
+print(f"Payshanba: True")
+print(f"Juma: False")
