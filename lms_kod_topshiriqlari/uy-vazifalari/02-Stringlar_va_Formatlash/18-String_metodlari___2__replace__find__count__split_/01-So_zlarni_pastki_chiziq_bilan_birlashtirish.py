@@ -1,2 +1,2 @@
-
-print(input().replace(" ", "_"))
+s = input()
+print(s.replace(' ', '_'))
