@@ -1,3 +1,3 @@
 matn = input()
-qidirilayotgan = input()
-print(matn.find(qidirilayotgan))
+bolak = input()
+print(matn.find(bolak))
