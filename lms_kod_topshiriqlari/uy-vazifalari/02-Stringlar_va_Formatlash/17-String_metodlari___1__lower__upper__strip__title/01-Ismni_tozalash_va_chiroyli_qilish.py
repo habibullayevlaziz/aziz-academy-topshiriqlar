@@ -1,3 +1,3 @@
-ism = input().strip().title()
-print(ism)
-print(ism[0])
+s = input().strip().title()
+print(s)
+print(s[0])
