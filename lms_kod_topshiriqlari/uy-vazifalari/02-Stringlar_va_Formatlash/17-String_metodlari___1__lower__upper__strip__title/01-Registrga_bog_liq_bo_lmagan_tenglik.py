@@ -1,3 +1,4 @@
-son1 = input().lower()
-son2 = input().lower().lower()
-print(son1 == son2)
+a = input()
+b = input()
+print(a.lower() == b.lower())
+ 
