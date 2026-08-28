@@ -1,3 +1,3 @@
 matn = input()
-qidiruv = input()
-print(qidiruv not in matn)
+soz = input()
+print(soz not in matn)
