@@ -1,1 +1,2 @@
-print(input().upper())
+s = input()
+print(s.upper())
