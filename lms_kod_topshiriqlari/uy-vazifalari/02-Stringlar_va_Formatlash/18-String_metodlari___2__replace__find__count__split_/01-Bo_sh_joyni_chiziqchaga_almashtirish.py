@@ -1,2 +1,2 @@
-gap = input()
-print(gap.replace(" ", "-"))
+matn = input()
+print(matn.replace(' ', '-'))
