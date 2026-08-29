@@ -1,3 +1,3 @@
-text = input()
-word = input()
-print(word.lower() in text.lower())
+matn = input()
+s = input()
+print(s.lower() in matn.lower() )
