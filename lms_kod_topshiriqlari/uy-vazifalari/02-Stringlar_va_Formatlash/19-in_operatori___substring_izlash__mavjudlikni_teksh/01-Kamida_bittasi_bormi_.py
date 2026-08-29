@@ -1,4 +1,4 @@
 matn = input()
-soz1 = input()
-soz2 = input()
-print(soz1 in matn or soz2 in matn)
+s1 = input()
+s2 = input()
+print(s1 in matn or s2 in matn)
