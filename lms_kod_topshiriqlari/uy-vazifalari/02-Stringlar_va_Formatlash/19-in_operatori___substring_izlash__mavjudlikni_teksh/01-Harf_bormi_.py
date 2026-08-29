@@ -1,2 +1,2 @@
-soz = input()
-print("a" in soz)
+matn = input()
+print('a' in matn)
