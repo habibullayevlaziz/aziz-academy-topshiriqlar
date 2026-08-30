@@ -1,4 +1,8 @@
-n = input()
-p = int(input())
-c = int(input())
-print(f"Mahsulot: {n}\nNarxi: {p} som\nSoni: {c}\nJami: {p*c} som")
+nom = input()
+narx = int(input())
+son = int(input())
+jami = narx * son
+print(f"Mahsulot: {nom}")
+print(f"Narxi: {narx} som")
+print(f"Soni: {son}")
+print(f"Jami: {jami} som")
