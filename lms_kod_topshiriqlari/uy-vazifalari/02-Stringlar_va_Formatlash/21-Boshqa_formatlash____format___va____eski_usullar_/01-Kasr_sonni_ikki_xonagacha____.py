@@ -1,2 +1,2 @@
 son = float(input())
-print(f"{son:.2f}")
+print("%.2f" % son)
