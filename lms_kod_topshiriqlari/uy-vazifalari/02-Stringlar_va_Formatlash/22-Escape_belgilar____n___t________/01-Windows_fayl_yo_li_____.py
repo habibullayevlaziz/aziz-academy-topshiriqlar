@@ -1,3 +1,3 @@
-papka = input()
-fayl = input()
-print(f"C:\\{papka}\\{fayl}")
+user = input()
+data = input()
+print("C:\\" + user + "\\" + data)
