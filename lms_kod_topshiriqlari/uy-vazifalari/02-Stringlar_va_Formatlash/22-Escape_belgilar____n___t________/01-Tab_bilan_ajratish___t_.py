@@ -1,3 +1,3 @@
-ism1 = input()
-ism2 = input()
-print(f"{ism1}\t{ism2}")
+soz1 = input()
+soz2 = input()
+print(f"{soz1}\t{soz2}")
