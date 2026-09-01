@@ -1,2 +1,2 @@
-matn = input()
-print(f'"{matn}"')
+soz = input()
+print(f"\"{soz}\"")
