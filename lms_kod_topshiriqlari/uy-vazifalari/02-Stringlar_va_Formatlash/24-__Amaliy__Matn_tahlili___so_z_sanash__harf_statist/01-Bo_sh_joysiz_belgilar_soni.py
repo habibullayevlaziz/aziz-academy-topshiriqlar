@@ -1,3 +1,2 @@
-matn = input()
-tozalangan_matn = matn.replace(" ","")
-print(len(tozalangan_matn))
+gap = input()
+print(len(gap.replace(" ", "")))
