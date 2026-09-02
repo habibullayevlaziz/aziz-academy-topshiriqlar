@@ -1,3 +1,2 @@
-matn = input()
-sozlar = matn.split()
-print(len(sozlar))
+gap = input().split()
+print(len(gap))
