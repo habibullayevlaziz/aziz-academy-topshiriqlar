@@ -1,4 +1,4 @@
 ism = input()
-print("=== KARTA ===")
+print(f"=== KARTA ===")
 print(f"Ism: {ism}")
 print("=============")
