@@ -1,6 +1,6 @@
-ism = input()
-yuboruvchi = input()
-print(f"Hurmatli {ism},")
-print("Sizni tabriklaymiz!")
-print("Hurmat bilan,")
-print(yuboruvchi)
+ismi = input()
+nomi = input()
+print(f"""Hurmatli {ismi},
+Sizni tabriklaymiz!
+Hurmat bilan,
+{nomi}""")
