@@ -1,5 +1,4 @@
-matn = input().split()
+matn = input()
 soz = input()
-yangi_matn = [s.upper() if s == soz else s for s in matn]
-print(*(yangi_matn))
-print(yangi_matn.count(soz.upper()))
+print(matn.replace(soz, soz.upper()))
+print(matn.count(soz))
