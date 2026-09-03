@@ -1,4 +1,2 @@
-s = input().split()
-n = len(s)
-del s[(n - 1) // 2 : n // 2 + 1]
-print(*s)
+gap = input().split()
+print(f"{gap[0]} {gap[-1]}")
