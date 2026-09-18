@@ -1,2 +1,2 @@
-matn = input()
-print(len(matn) == 8)
+parol = input()
+print(len(parol) >= 8)
