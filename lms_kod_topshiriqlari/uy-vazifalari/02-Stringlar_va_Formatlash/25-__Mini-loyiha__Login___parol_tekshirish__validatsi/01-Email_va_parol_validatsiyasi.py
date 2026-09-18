@@ -1,3 +1,3 @@
-login = input()
+email = input()
 parol = input()
-print(login.islower() and "@" in login)
+print('@' in email and '.' in email and 8 <= len(parol) <= 16 and email == email.lower())
