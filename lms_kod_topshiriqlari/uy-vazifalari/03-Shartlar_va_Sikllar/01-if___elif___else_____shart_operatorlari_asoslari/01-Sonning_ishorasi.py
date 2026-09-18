@@ -1,7 +1,7 @@
-son = int(input())
-if son > 0:
+n = int(input())
+if n > 0:
     print("musbat")
-elif son < 0:
+elif n < 0:
     print("manfiy")
 else:
     print("nol")
