@@ -1,4 +1,9 @@
-son1 = int(input())
-son2 = int(input())
-son3 = int(input())
-print(max(son1, son2, son3))
+a = int(input())
+b = int(input())
+c = int(input())
+if a >= b and a >= c:
+    print(a)
+elif b >= a and b >= c:
+    print(b)
+else:
+    print(c)
