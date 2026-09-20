@@ -1,8 +1,11 @@
 kwh = int(input())
-if kwh <= 100:
-    pul = kwh * 450
-elif kwh <= 200:
-    pul = (100 * 450) + (kwh - 100) * 600
+if kwh < 0:
+    print("Notog'ri qiymat")
 else:
-    pul = (100 * 450) + (100 * 600) + (kwh - 200) * 900
-print(pul)
+    if kwh <= 100:
+        summa = kwh * 450
+    elif kwh <= 200:
+        summa = 100 * 450 + (kwh - 100) * 600
+    else:
+        summa = 100 * 450 + 100 * 600 + (kwh - 200) * 900
+    print(summa)
