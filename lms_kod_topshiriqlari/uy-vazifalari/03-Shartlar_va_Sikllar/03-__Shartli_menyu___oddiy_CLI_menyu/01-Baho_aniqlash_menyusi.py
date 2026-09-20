@@ -1,15 +1,21 @@
-tasks_status = int(input())
-score = int(input())
-if tasks_status == 2:
-    print("Yiqildi")
-else:
-    if score >= 90:
+menyu = int(input())
+ball = int(input())
+if menyu == 1:
+    if ball >= 90:
         print("A")
-    elif score >= 80:
+    elif ball >= 80:
         print("B")
-    elif score >= 70:
+    elif ball >= 70:
         print("C")
-    elif score >= 60:
+    elif ball >= 60:
         print("D")
     else:
         print("F")
+elif menyu == 2:
+    if ball >= 60:
+        print("O'tdi")
+    else:
+        print("Yiqildi")
+else:
+    print("Notog'ri tanlov")
+        
