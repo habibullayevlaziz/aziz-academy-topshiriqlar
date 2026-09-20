@@ -1,8 +1,10 @@
-n = int(input())
-if n > 0:
-    if n % 2 == 0:
+son = int(input())
+if son > 0:
+    if son % 2 == 0:
         print("Musbat juft")
     else:
         print("Musbat toq")
-elif n < 0:
+elif son < 0:
     print("Manfiy")
+else:
+    print("Nol")
