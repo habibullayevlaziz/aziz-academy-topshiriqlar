@@ -9,4 +9,3 @@ elif amal == 3:
     print(a * b)
 elif amal == 4:
     print(a // b)
-    
