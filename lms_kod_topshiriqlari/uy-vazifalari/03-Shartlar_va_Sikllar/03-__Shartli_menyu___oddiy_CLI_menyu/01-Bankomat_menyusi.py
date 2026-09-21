@@ -4,11 +4,11 @@ summa = int(input())
 if amal == 1:
     print(balans)
 elif amal == 2:
-    if balans >= summa:
+    if summa <= balans:
         print(balans - summa)
     else:
         print("Mablag' yetarli emas")
 elif amal == 3:
     print(balans + summa)
 else:
-    print("Notogri amal")
+    print("Notog'ri amal")
