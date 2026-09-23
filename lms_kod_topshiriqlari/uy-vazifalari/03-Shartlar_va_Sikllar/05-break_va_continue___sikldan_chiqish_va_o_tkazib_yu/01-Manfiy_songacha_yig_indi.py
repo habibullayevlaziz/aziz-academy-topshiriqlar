@@ -1,7 +1,7 @@
 yigindi = 0
 while True:
-    n = int(input())
-    if n < 0:
+    son = int(input())
+    if son < 0:
         break
-    yigindi += n
+    yigindi += son
 print(yigindi)
