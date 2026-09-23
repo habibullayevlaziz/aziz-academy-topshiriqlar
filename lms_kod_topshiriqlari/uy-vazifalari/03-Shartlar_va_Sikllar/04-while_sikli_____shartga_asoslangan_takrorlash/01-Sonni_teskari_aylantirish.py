@@ -1,3 +1,7 @@
-n = input()
-reversed_n = n[::-1]
-print(int(reversed_n))
+n = int(input())
+teskari_son = 0
+while n > 0:
+    qoldiq = n % 10
+    teskari_son = teskari_son * 10 + qoldiq
+    n = n // 10
+print(teskari_son)
