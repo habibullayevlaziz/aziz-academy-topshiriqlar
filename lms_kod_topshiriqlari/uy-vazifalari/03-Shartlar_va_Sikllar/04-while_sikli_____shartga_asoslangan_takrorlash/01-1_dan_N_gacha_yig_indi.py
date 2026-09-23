@@ -1,3 +1,7 @@
 n = int(input())
-yigindi = n * (n + 1) // 2
+yigindi = 0
+i = 1
+while i <= n:
+    yigindi += i
+    i += 1
 print(yigindi)
