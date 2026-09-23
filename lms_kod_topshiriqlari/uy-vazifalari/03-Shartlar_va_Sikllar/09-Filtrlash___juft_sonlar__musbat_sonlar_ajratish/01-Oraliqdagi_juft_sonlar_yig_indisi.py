@@ -1,7 +1,3 @@
-A = int(input())
-B = int(input())
-yigindi = 0
-for son in range(A, B + 1):
-    if son % 2 == 0:
-        yigindi += son
-print(yigindi)
+a = int(input())
+b = int(input())
+print(sum(i for i in range(a, b + 1) if i % 2 == 0))
