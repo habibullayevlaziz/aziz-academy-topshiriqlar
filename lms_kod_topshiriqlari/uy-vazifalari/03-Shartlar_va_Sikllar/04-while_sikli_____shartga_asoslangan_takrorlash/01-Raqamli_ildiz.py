@@ -1,10 +1,8 @@
 n = int(input())
-if n == 0:
-    print(0)
-else:
-    natija = n % 9
-    if natija == 0:
-        print(9)
-    else:
-        print(natija)
-        
+while n >= 10:
+    yigindi = 0
+    while n > 0:
+        yigindi += n % 10
+        n = n // 10
+    n = yigindi
+print(n)
