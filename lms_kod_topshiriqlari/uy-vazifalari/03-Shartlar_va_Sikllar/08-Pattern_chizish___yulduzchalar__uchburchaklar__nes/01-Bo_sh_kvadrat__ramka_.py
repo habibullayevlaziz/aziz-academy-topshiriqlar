@@ -1,6 +1,6 @@
-N = int(input())
-for i in range(N):
-    if i == 0 or i == N - 1:
-        print("*" * N)
+n = int(input())
+for i in range(n):
+    if i == 0 or i == n - 1:
+        print('*' * n)
     else:
-        print("*" + " " * (N - 2) + "*")
+        print('*' + ' ' * (n - 2) + '*')
