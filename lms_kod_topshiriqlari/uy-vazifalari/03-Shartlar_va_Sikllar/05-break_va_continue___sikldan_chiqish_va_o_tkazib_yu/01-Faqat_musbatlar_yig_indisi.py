@@ -1,7 +1,10 @@
 n = int(input())
 yigindi = 0
-for _ in range(n):
+sikl_soni = 0
+while sikl_soni < n:
     son = int(input())
-    if son > 0:
-        yigindi += son
+    sikl_soni += 1
+    if son <= 0:
+        continue
+    yigindi += son
 print(yigindi)
