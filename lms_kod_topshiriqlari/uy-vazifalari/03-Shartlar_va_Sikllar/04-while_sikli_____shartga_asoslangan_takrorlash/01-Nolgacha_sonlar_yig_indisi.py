@@ -1,10 +1,7 @@
-total_sum = 0
+yigindi = 0
 while True:
-    try:
-        num = int(input())
-        if num == 0:
-            break
-        total_sum += num
-    except EOFError:
+    n = int(input())
+    if n == 0:
         break
-print(total_sum)
+    yigindi += n
+print(yigindi)
