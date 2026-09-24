@@ -1,7 +1,6 @@
-N = int(input())
-karrali_3 = 0
-for _ in range(N):
-    son = int(input())
-    if son % 3 == 0:
-        karrali_3 += 1
-print(karrali_3) 
+n = int(input())
+soni = 0
+for _ in range(n):
+    if int(input()) % 3 == 0:
+        soni += 1
+print(soni)
