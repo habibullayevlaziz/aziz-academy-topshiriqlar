@@ -1,3 +1,3 @@
-text = input()
-for char in text:
-    print(char)
+n = input()
+for ch in n:
+    print(ch)
