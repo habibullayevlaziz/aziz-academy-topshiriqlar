@@ -1,5 +1,5 @@
-son = input()
+matn = input()
 yigindi = 0
-for raqam in son:
-    yigindi += int(raqam)
+for ch in matn:
+    yigindi += int(ch)
 print(yigindi)
