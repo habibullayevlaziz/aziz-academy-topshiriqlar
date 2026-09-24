@@ -1,3 +1,4 @@
 n = int(input())
-for i in range(n, 0, -1):
-    print(i)
+while n >= 1:
+    print(n)
+    n -= 1
