@@ -1,7 +1,7 @@
-char_to_count = input()
-text = input()
-counter = 0
-for char in text:
-    if char == char_to_count:
-        counter += 1
-print(counter)
+t = input()
+s = input()
+count = 0
+for char in s:
+    if char == t:
+        count += 1
+print(count)
