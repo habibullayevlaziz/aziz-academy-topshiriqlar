@@ -1,3 +1,5 @@
 n = int(input())
-natija = n * (n + 1) // 2
-print(natija)
+yigindi = 0
+for i in range(1, n + 1):
+    yigindi += i
+print(yigindi)
