@@ -1,7 +1,3 @@
-N = int(input())
-elementlar = []
-for _ in range(N):
-    elementlar.append(int(input()))
-unikal_soni = len(set(elementlar))
-natija = N - unikal_soni + 1
-print(natija)
+n = int(input())
+sonlar = [int(input()) for _ in range(n)]
+print(sonlar.index(max(sonlar)) + 1)
