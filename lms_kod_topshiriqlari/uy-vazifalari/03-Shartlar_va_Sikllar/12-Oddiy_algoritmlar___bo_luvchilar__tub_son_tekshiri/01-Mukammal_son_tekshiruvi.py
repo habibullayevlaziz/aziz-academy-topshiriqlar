@@ -1,17 +1,6 @@
-n = int(input())
-if n <= 1:
-    print("MUKAMMAL EMAS")
+son = int(input())
+divisors_sum = sum(i for i in range(1, son) if son % i == 0)
+if divisors_sum == son:
+    print("MUKAMMAL")
 else:
-    total_sum = 1
-    i = 2
-    while i * i <= n:
-        if n % i == 0:
-            total_sum += i
-            if i * i != n:
-                total_sum += n // i
-        i += 1
-    if total_sum == n:
-        print("MUKAMMAL")
-    else:
-        print("MUKAMMAL EMAS")
-            
+    print("MUKAMMAL EMAS")
