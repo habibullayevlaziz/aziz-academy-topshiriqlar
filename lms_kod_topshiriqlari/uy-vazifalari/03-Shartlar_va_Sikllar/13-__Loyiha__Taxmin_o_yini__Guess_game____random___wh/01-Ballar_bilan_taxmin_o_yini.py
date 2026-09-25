@@ -1,10 +1,14 @@
-target = int(input())
-wrong = 0
+secret = int(input())
+score = 100
 while True:
     guess = int(input())
-    if guess == target:
+    if guess > secret:
+            print("KATTA")
+            score = max(0, score - 10)
+    elif guess < secret:
+        print("KICHIK")
+        score = max(0, score - 10)
+    else:
         print("TOPDINGIZ")
-        print(f"Ball: {max(0, 100 - wrong * 10)}")
+        print(f"Ball: {score}")
         break
-    print("KATTA" if guess > target else "KICHIK")
-    wrong += 1
