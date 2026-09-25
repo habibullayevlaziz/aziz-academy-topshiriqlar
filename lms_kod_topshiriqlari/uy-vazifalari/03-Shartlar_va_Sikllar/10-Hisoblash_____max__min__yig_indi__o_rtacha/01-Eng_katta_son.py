@@ -1,11 +1,7 @@
-import sys
-def main():
-    input_data = sys.stdin.read().split()
-    if not input_data:
-        return
-    n = int(input_data[0])
-    sonlar = [int(x) for x in input_data[1:n+1]]
-    if sonlar:
-        print(max(sonlar))
-if __name__ == '__main__':
-    main()
+n = int(input())
+max_val = int(input())
+for _ in range(n - 1):
+    num = int(input())
+    if num > max_val:
+        max_val = num
+print(max_val)
