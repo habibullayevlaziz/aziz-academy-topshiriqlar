@@ -1,11 +1,7 @@
-import sys
-def main():
-    input_data = sys.stdin.read().split()
-    if not input_data:
-        return
-    n = int(input_data[0])
-    sonlar = [int(x) for x in input_data[1:n+1]]
-    if sonlar:
-        print(min(sonlar))
-if __name__ == '__main__':
-    main()
+n = int(input())
+min_val = int(input())
+for i in range(n - 1):
+    num = int(input())
+    if num < min_val:
+        min_val = num
+print(min_val)
