@@ -1,13 +1,9 @@
-import sys
-def main():
-    input_data = sys.stdin.read().split()
-    if len(input_data) < 2:
-        return
-    a = int(input_data[0])
-    b = int(input_data[1])
-    if a == 1 and b == 1:
-        print(1)
-    else:
-        print(a + b)
-if __name__ == '__main__':
-    main()
+import math
+n = int(input())
+t = int(input())
+katakchalar_soni = 0
+for i in range(1, n + 1):
+    ekub = math.gcd(i, t)
+    kerakli_pogona = t // ekub
+    katakchalar_soni += n // kerakli_pogona
+print(katakchalar_soni)
