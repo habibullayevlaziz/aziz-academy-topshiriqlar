@@ -1,8 +1,9 @@
-import math
 n = int(input())
-devisors = set()
-for i in range(1, int(math.isqrt(n)) + 1):
+divisors = set()
+i = 1
+while i * i <= n:
     if n % i == 0:
-        devisors.add(i)
-        devisors.add(n // i)
-print(*(sorted(devisors)))
+        divisors.add(i)
+        divisors.add(n // i)
+    i += 1
+print(*sorted(divisors))
