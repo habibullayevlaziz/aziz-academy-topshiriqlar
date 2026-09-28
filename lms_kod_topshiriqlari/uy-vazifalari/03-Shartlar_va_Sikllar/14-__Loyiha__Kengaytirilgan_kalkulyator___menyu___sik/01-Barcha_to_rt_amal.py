@@ -3,4 +3,7 @@ b = int(input())
 print(f"Yig'indi: {a + b}")
 print(f"Ayirma: {a - b}")
 print(f"Ko'paytma: {a * b}")
-print(f"Bo'linma: {a // b if b != 0 else 'aniqlanmagan'}")
+if b == 0:
+    print(f"Bo'linma: aniqlanmagan")
+else:
+    print(f"Bo'linma: {a // b}")
