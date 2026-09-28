@@ -1,15 +1,26 @@
-import sys
-kirish = sys.stdin.read().split()
-if not kirish:
-    exit()
-if kirish[0] == '5':
-    print("8")
-    print("2")
-    print("Eng katta natija: 8")
-elif kirish[0] == '1':
-    print("10")
-    print("14")
-    print("Eng katta natija: 14")
-else:
-    print("-7")
-    print("Eng katta natija: -7")
+m = None
+while True:
+    op = int(input())
+    if op == 0:
+        break
+    a = int(input())
+    b = int(input())
+    r = None
+    if op == 1:
+        r = a + b
+    elif op == 2:
+        r = a - b
+    elif op == 3:
+        r = a * b 
+    elif op == 4 and b != 0:
+        r = a // b
+    elif op == 5:
+        r = a ** b
+    elif op == 6 and b != 0:
+        r = a % b 
+    if r is not None:
+        print(r)
+        if m is None or r > m:
+            m = r
+if m is not None:
+    print(f"Eng katta natija: {m}")
