@@ -1,13 +1,11 @@
-a = int(input())
-op = input()
+a = int(input()) 
+op = input().strip()
 b = int(input())
-if op == '+':
+if op == "+":
     print(a + b)
-elif op == '-':
+elif op == "-":
     print(a - b)
-elif op =='*':
+elif op == "*":
     print(a * b)
-elif op == '/':
-    print(a / b)
 else:
     print("Noma'lum amal")
