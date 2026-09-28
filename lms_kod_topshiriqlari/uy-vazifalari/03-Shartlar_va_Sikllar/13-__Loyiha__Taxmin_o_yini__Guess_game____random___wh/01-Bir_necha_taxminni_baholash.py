@@ -1,10 +1,10 @@
-target = int(input())
+son = int(input())
 k = int(input())
 for _ in range(k):
-    guess = int(input())
-    if guess > target:
-        print("KATTA")
-    elif guess < target:
-        print("KICHIK")
-    else:
+    taxmin = int(input())
+    if taxmin == son:
         print("TOPDINGIZ")
+    elif taxmin > son:
+        print("KATTA")
+    else:
+        print("KICHIK")
