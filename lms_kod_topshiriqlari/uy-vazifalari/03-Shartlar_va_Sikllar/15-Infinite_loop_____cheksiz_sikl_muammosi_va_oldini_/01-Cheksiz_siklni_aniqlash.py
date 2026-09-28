@@ -1,10 +1,10 @@
-import sys
-kirish = sys.stdin.read().split()
-if not kirish:
-    exit()
-if kirish[0] == '0':
-    print("10")
-elif kirish[0] == '50':
+import math
+start = int(input())
+step = int(input())
+if start >= 100:
+    print(0)
+elif step <= 0:
     print("CHEKSIZ")
 else:
-    print("4")
+    qadamlar = math.ceil((100 - start) / step)
+    print(qadamlar)
