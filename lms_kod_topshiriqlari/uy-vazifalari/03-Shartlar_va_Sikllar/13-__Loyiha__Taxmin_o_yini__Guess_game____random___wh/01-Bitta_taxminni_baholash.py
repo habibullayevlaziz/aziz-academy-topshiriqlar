@@ -1,8 +1,8 @@
-a = int(input())
-b = int(input())
-if b > a:
-    print("KATTA")
-elif b < a:
-    print("KICHIK")
-else:
+son = int(input())
+taxmin = int(input())
+if taxmin == son:
     print("TOPDINGIZ")
+elif taxmin > son:
+    print("KATTA")
+else:
+    print("KICHIK")
