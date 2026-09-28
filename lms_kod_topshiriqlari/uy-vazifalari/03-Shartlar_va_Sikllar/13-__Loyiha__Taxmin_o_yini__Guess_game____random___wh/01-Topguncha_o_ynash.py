@@ -1,13 +1,13 @@
-target = int(input())
-attempts = 0
+son = int(input())
+urinishlar = 0
 while True:
-    guess = int(input())
-    attempts += 1
-    if guess > target:
-        print("KATTA")
-    elif guess < target:
-        print("KICHIK")
-    else:
+    taxmin = int(input())
+    urinishlar += 1
+    if taxmin == son:
         print("TOPDINGIZ")
-        print(f"Urinishlar: {attempts}")
         break
+    elif taxmin > son:
+        print("KATTA")
+    else:
+        print("KICHIK")
+print(f"Urinishlar: {urinishlar}")
