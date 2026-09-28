@@ -1,8 +1,32 @@
-import sys
-kirish = sys.stdin.read().split()
-if not kirish or kirish[0] == '0':
-    print("Amallar: 0\nNatijalar yig'indisi: 0")
-elif kirish[0] == '1':
-    print("15\n6\nAmallar: 2\nNatijalar yig'indisi: 21")
-else:
-    print("5\nAmallar: 1\nNatijalar yig'indisi: 5")
+count = 0
+total_sum = 0
+while True:
+    try:
+        op = int(input())
+    except EOFError:
+        break
+    if op == 0:
+        break
+    a = int(input())
+    b = int(input())
+    valid = True
+    res = 0
+    if op == 1:
+        res = a + b
+    elif op == 2:
+        res = a - b
+    elif op == 3:
+        res = a * b
+    elif op == 4:
+        if b == 0:
+            valid = False
+        else:
+            res = a // b
+    else:
+        valid = False
+    if valid:
+        print(res)
+        count += 1
+        total_sum += res
+print(f"Amallar: {count}")
+print(f"Natijalar yig'indisi: {total_sum}")
