@@ -1,15 +1,15 @@
-target = int(input())
-max_attempts = int(input())
-won = False
-for _ in range(max_attempts):
-    guess = int(input())
-    if guess > target:
-        print("KATTA")
-    elif guess < target:
-        print("KICHIK")
-    else:
+yashirin_son = int(input())
+n = int(input())
+topildi = False
+for _ in range(n):
+    taxmin = int(input())
+    if taxmin == yashirin_son:
         print("TOPDINGIZ")
-        won = True
+        topildi = True
         break
-if not won:
+    elif taxmin > yashirin_son:
+        print("KATTA")
+    else:
+        print("KICHIK")
+if not topildi:
     print("YUTQAZDINGIZ")
