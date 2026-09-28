@@ -1,3 +1,5 @@
-import sys
-n = int(sys.stdin.read().strip())
-print(*(list(range(n, 0, -1)) + ["BOOM"]), sep="\n")
+n = int(input())
+while n > 0:
+    print(n)
+    n -= 1
+print("BOOM")
