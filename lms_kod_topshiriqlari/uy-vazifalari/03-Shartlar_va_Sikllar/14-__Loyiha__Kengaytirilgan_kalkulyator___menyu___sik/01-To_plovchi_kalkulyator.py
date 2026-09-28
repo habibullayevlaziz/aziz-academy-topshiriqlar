@@ -1,15 +1,16 @@
-res = 0
+result = 0
 while True:
-    op = input()
+    op = input().strip()
     if op == '=':
         break
     num = int(input())
     if op == '+':
-        res += num
+        result += num
     elif op == '-':
-        res -= num
+        result -= num
     elif op == '*':
-        res *= num
+        result *= num
     elif op == '/':
-        res //= num
-print(res)
+        if num != 0:
+            result //= num
+print(result)
