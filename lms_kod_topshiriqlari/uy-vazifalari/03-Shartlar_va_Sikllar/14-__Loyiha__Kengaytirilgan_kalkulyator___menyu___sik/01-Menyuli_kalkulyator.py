@@ -1,9 +1,19 @@
-import sys
-data = sys.stdin.read().split()
-if data[0] == '1' and data [1] == '5':
-    print("12")
-    print("24")
-elif data[0] == '4' and data[1] == '10':
-    print("Xato")
-else:
-    print("5")
+while True:
+    cmd = int(input())
+    if cmd == 0:
+        break
+    a = int(input())
+    b = int(input())
+    if cmd == 1:
+        print(a + b)
+    elif cmd == 2:
+        print(a - b)
+    elif cmd == 3:
+        print(a * b)
+    elif cmd == 4:
+        if b == 0:
+            print("Xato")
+        else:
+            print(a // b)
+    else:
+        print("Noma'lum")
