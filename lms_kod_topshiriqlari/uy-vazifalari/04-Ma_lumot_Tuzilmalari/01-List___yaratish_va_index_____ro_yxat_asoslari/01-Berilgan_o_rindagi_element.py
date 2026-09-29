@@ -1,3 +1,3 @@
-sonlar = input().split()
-indeks = int(input())
-print(sonlar[indeks])
+nums = input().split()
+k = int(input())
+print(nums[k])
