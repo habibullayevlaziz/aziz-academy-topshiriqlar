@@ -1,4 +1,3 @@
-elementlar = input().split()
-if elementlar:
-    print(elementlar[0])
-    print(elementlar[-1])
+nums = input().split()
+print(nums[0])
+print(nums[-1])
