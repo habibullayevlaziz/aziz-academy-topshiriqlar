@@ -1,3 +1,7 @@
-sonlar = input().split()
-qidirilayotgan_son = input().strip()
-print(sonlar.count(qidirilayotgan_son))
+lst = input().split()
+v = input()
+count = 0
+for x in lst:
+    if x == v:
+        count += 1
+print(count)
