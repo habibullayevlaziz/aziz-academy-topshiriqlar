@@ -1,2 +1,1 @@
-import sys
-print(sum(map(int, sys.stdin.read().split())))
+print(sum(map(int, input().split())))
