@@ -1,5 +1,5 @@
-elementlar = input().split()
-boshlangich_indeks = int(input())
-oxirgi_indeks = int(input())
-natija = elementlar[boshlangich_indeks:oxirgi_indeks]
-print(*(natija))
+nums = input().split()
+a = int(input())
+b = int(input())
+result = nums[a:b]
+print(*result)
