@@ -1,6 +1,4 @@
-import sys
-data = sys.stdin.read().split()
-idx = int(data[-1])
-lst = data[:-1]
-lst.pop(idx)
+lst = input().split()
+k = int(input())
+lst.pop(k)
 print(*lst)
