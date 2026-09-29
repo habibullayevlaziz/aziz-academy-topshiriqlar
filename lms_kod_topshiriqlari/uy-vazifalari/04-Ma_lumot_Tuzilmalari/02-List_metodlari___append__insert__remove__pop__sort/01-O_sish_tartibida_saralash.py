@@ -1,3 +1,7 @@
-import sys
-res = sorted(map(int, sys.stdin.read().split()[1:]))
-print(*res)
+n = int(input())
+nums = []
+for _ in range(n):
+    num = int(input())
+    nums.append(num)
+nums.sort()
+print(*nums)
