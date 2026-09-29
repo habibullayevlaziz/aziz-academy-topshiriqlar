@@ -1,2 +1,8 @@
-import sys 
-print(*sorted(x for x in map(int, sys.stdin.read().split()[1:]) if x % 2 != 0))
+n = int(input())
+odds = []
+for _ in range(n):
+    num = int(input())
+    if num % 2 != 0:
+        odds.append(num)
+odds.sort()
+print(*odds)
