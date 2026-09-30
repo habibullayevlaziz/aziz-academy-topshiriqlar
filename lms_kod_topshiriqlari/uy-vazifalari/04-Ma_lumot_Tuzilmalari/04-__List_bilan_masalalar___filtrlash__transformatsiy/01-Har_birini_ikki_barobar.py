@@ -1,3 +1,3 @@
-sonlar = list(map(int, input().split()))
-natija = [str(x * 2) for x in sonlar]
-print(" ".join(natija))
+nums = map(int, input().split())
+doubled = [str(x * 2) for x in nums]
+print(" ".join(doubled))
