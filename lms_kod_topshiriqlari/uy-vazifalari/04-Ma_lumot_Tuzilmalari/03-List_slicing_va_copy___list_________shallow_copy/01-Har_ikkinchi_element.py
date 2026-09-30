@@ -1,3 +1,2 @@
-elementlar = input().split()
-natija = elementlar[::2]
-print(*natija)
+nums = input().split()
+print(*nums[::2])
