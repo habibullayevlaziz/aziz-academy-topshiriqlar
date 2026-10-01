@@ -1,7 +1,9 @@
 n = int(input())
-ombor = {}
+inventory = {}
 for _ in range(n):
-    nomi, miqdori = input().split()
-    ombor[nomi] = ombor.get(nomi, 0) + int(miqdori)
-for nomi, miqdori in ombor.items():
-    print(nomi, miqdori)
+    product, qty = input().split()
+    qty = int(qty)
+    inventory[product] = inventory.get(product, 0) + qty
+for product, total in inventory.items():
+    print(f"{product} {total}")
+    
