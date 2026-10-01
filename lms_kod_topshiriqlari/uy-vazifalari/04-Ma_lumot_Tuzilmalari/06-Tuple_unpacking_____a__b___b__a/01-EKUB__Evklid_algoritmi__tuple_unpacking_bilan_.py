@@ -1,4 +1,5 @@
-import sys
-import math
-a, b = map(int, sys.stdin.read().split())
-print(math.gcd(a, b))
+a = int(input())
+b = int(input())
+while b != 0:
+    a, b = b, a % b
+print(a)
