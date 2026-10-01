@@ -1,2 +1,6 @@
-sonlar = list(map(int, input().split()))
-print(sum(sonlar))
+nums = tuple(input().split())
+yigindi = 0
+for x in nums:
+    yigindi += int(x)
+print(yigindi)
+    
