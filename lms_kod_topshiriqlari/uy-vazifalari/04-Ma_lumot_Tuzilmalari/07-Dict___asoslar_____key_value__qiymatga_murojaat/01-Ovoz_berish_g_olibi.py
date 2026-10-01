@@ -1,6 +1,7 @@
 n = int(input())
-ismlar = []
+votes = {}
 for _ in range(n):
-    ismlar.append(input().strip())
-eng_kop = max(ismlar, key=ismlar.count)
-print(eng_kop)
+    name = input().strip()
+    votes[name] = votes.get(name, 0) + 1
+winner = max(votes, key=votes.get)
+print(winner)
