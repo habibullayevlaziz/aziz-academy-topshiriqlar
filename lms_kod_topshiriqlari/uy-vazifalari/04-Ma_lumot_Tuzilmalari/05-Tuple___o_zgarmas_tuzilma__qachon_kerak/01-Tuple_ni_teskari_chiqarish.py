@@ -1,2 +1,2 @@
-import sys
-print(*sys.stdin.read().split()[::-1])
+nums = tuple(input().split())
+print(*nums[::-1])
