@@ -1,2 +1,2 @@
-elementlar = input().split()
-print(len(elementlar))
+my_tuple = tuple(input().split())
+print(len(my_tuple))
