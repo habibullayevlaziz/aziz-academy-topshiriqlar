@@ -1,2 +1,3 @@
-a, b, c = map (int,input().split())
-print(a + b + c)
+a, b, c, = map(int, input().split())
+yigindi = a + b + c
+print(yigindi)
