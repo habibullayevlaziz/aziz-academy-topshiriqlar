@@ -1,6 +1,6 @@
-import sys
-from collections import Counter
-s = sys.stdin.read().strip()
-c = Counter(s)
-for k in sorted(c):
-    print(k, c[k])
+s = input()
+counts = {}
+for char in s:
+    counts[char] = counts.get(char, 0) + 1
+for char in sorted(counts.keys()):
+    print(f"{char} {counts[char]}")
