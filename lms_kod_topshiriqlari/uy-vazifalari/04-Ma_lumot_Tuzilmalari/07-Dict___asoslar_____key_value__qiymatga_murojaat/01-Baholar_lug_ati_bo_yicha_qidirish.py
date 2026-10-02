@@ -1,7 +1,7 @@
 n = int(input())
-lugat = {}
+students = {}
 for _ in range(n):
-    ism, ball = input().split()
-    lugat[ism] = ball
-qidirilayotgan_ism = input()
-print(lugat[qidirilayotgan_ism])
+    name, score = input().split()
+    students[name] = int(score)
+name = input()
+print(students[name])
