@@ -1,3 +1,7 @@
-import sys
-capitals = {"Uzbekistan": "Tashkent", "Japan": "Tokyo", "France": "Paris"}
-print(capitals.get(sys.stdin.read().strip()))
+d = {"Uzbekistan": "Tashkent",
+    "Russia": "Moscow",
+    "France": "Paris",
+    "Japan": "Tokyo",
+}
+mamlakat = input()
+print(d[mamlakat])
