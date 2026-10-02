@@ -1,6 +1,6 @@
-mahsulotlar = input().split()
-ombor = {}
-for nomi in mahsulotlar:
-    ombor[nomi] = ombor.get(nomi, 0) + 1
-for nomi in sorted(ombor.keys()):
-    print(nomi, ombor[nomi])
+s = input().split()
+words = {}
+for word in s:
+    words[word] = words.get(word, 0) + 1
+for word in sorted(words):
+    print(word, words[word])
