@@ -1,4 +1,7 @@
-qator1 = set(map(int, input().split()))
-qator2 = set(map(int, input().split()))
-umumiy_elementlar = qator1 & qator2
-print(len(umumiy_elementlar))
+set1 = set(input().split())
+set2 = set(input().split())
+count = 0
+for elem in set1:
+    if elem in set2:
+        count += 1
+print(count)
