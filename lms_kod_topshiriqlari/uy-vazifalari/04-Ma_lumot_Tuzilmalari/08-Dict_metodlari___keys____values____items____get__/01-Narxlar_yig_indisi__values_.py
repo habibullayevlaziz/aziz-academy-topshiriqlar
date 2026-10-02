@@ -1,2 +1,6 @@
-import sys
-print(sum(int(x) for x in sys.stdin.read().split()[1:] if x.isdigit()))
+n = int(input())
+d = {}
+for _ in range(n):
+    nomi, narxi = input().split()
+    d[nomi] = int(narxi)
+print(sum(d.values()))
