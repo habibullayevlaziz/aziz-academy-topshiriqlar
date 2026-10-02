@@ -1,7 +1,6 @@
-import sys
-from collections import Counter
-nums = list(map(int, sys.stdin.read().split()))
-if nums:
-    c = Counter(nums)
-    ans = min(set(nums), key=lambda x: (-nums.count(x), x))
-    print(ans)
+numbers = list(map(int, input().split()))
+counts = {}
+for num in numbers:
+    counts[num] = counts.get(num, 0) + 1
+best_num = min(counts.keys(), key=lambda num: (-counts[num], num))
+print(best_num)
