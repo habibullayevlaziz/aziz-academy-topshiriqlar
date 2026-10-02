@@ -1,2 +1,5 @@
-import sys
-print(len(set(sys.stdin.read().split())))
+words = input().split()
+unique_words = {}
+for word in words:
+    unique_words[word] = True
+print(len(unique_words))
