@@ -1,9 +1,12 @@
-def yechim():
-    arr = list(map(int, input().split()))
-    korilgan = set()
-    for x in arr:
-        if x in korilgan:
-            print(x)
-            return
-        korilgan.add(x)
-yechim()
+numbers = input().split()
+seen = set()
+found = None
+for num in numbers:
+    if num in seen:
+        found = num
+        break
+    seen.add(num)
+if found is not None:
+    print(found)
+else:
+    print("Yo'q")
