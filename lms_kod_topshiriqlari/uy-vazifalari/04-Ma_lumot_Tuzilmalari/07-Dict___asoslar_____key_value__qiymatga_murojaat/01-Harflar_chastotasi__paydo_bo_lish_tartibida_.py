@@ -1,6 +1,9 @@
-soz = input()
-sanoq = {}
-for harf in soz:
-    sanoq[harf] = sanoq.get(harf, 0) + 1
-for harf, soni in sanoq.items():
-    print(f"{harf} {soni}")
+s = input()
+letters = {}
+for harf in s:
+    if harf not in letters:
+        letters[harf] = 1
+    else:
+        letters[harf] += 1
+for harf in letters:
+    print(harf, letters[harf])
