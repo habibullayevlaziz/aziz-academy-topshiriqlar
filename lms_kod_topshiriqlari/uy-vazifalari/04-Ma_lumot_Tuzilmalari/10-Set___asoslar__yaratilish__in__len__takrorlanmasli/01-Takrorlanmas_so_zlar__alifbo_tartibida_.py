@@ -1,3 +1,4 @@
-import sys
-words = sorted(set(sys.stdin.read().split()))
-print(*words)
+sozlar = input().split()
+takrorlanmas = set(sozlar)
+tartiblangan = sorted(takrorlanmas)
+print(*tartiblangan)
