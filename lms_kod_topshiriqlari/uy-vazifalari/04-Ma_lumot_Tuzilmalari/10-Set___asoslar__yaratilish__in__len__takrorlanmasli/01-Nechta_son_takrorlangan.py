@@ -1,7 +1,7 @@
-import sys
+sonlar = input().split()
 seen = set()
 dups = set()
-for x in sys.stdin.read().split():
+for x in sonlar:
     if x in seen:
         dups.add(x)
     else:
