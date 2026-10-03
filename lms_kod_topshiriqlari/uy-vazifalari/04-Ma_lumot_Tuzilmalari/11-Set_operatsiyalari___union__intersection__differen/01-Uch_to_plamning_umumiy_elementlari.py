@@ -1,4 +1,6 @@
-import sys
-lines = [set(map(int, line.split())) for line in sys.stdin.read().splitlines()if line.strip()]
-if lines:
-    print(*(sorted(set.intersection(*lines))))
+a = set(map(int, input().split()))
+b = set(map(int, input().split()))
+c = set(map(int, input().split()))
+umumiy = a & b & c
+natija = sorted(umumiy)
+print(*natija)
