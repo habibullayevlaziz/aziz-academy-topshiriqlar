@@ -1,2 +1,3 @@
-import sys 
-print(len(set(sys.stdin.read().split())))
+numbers = input().split()
+unique_numbers = set(numbers)
+print(len(unique_numbers))
