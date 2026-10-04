@@ -1,3 +1,4 @@
-import sys
-nums = set(map(int, sys.stdin.read().split()))
-print(*sorted(nums))
+set1 = set(map(int, input().split()))
+set2 = set(map(int, input().split()))
+birlashma = sorted(set1 | set2)
+print(*birlashma)
