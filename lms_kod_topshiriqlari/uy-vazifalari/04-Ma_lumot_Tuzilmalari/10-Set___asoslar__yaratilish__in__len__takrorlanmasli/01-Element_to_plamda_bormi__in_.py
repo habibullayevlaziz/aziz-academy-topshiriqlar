@@ -1,6 +1,6 @@
-import sys
-lines = sys.stdin.read().splitlines()
-if len(lines) >= 2:
-    nums = set(lines[0].split())
-    target = lines[1].strip()
-    print("Bor" if target in nums else "Yo'q")
+sonlar = set(map(int, input().split()))
+qidiriladigam_sonlar = int(input())
+if qidiriladigam_sonlar in sonlar:
+    print("Bor")
+else:
+    print("Yo'q")
