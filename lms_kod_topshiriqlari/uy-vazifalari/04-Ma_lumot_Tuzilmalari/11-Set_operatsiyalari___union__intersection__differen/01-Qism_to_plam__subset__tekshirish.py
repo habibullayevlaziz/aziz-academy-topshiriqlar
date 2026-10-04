@@ -1,6 +1,6 @@
-import sys
-lines = [set(map(int, line.split())) for line in sys.stdin.read().splitlines() if line.strip()]
-if lines[0].issubset(lines[1]):
+set1 = set(map(int, input().split()))
+set2 = set(map(int, input().split()))
+if set1.issubset(set2):
     print("Ha")
 else:
     print("Yoq")
