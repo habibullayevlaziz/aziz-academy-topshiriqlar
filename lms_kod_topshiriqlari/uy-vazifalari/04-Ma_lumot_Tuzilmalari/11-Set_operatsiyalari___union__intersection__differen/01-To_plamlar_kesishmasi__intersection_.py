@@ -1,5 +1,4 @@
-import sys
-lines = sys.stdin.read().splitlines()
-set1 = set(map(int, lines[0].split()))
-set2 = set(map(int, lines[1].split()))
-print(*sorted(set1 & set2))
+a = set(map(int, input().split()))
+b = set(map(int, input().split()))
+result = sorted(a & b)
+print(*result)
