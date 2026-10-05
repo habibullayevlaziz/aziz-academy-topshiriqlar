@@ -1,3 +1,7 @@
 n = int(input())
-talabalar = [input().split() for _ in range(n)]
-print(max(talabalar, key=lambda x: int(x[1]))[0])
+students = []
+for _ in range(n):
+    name, age = input().split()
+    students.append({"name": name, "age": int(age)})
+oldest_student = max(students, key=lambda s: s["age"])
+print(oldest_student["name"])
