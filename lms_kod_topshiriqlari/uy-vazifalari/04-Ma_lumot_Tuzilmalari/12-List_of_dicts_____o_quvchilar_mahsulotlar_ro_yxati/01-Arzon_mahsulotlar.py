@@ -1,6 +1,9 @@
 n = int(input())
-mahsulotlar = [input().split() for _ in range(n)]
+products = []
+for _ in range(n):
+    name, price = input().split()
+    products.append({"name": name, "price": int(price)})
 limit = int(input())
-for nom, narx in mahsulotlar:
-    if int(narx) <= limit:
-        print(nom)
+for product in products:
+    if product["price"] < limit:
+        print(product["name"])
