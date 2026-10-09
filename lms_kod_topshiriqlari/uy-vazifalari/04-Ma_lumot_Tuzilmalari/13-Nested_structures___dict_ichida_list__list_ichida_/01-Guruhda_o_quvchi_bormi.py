@@ -1,12 +1,12 @@
-import sys
-def solve():
-    lines = sys.stdin.read().splitlines()
-    if not lines: return
-    n = int(lines[0].strip())
-    groups = {p[0]: set(p[1:]) for line in lines[1:n+1] if (p := line.split())}
-    query = lines[n+1].split()
-    if len(query) >= 2:
-        g_id, name = query[0], query[1]
-        print("Ha" if g_id in groups and name in groups[g_id] else "Yoq")
-if __name__ == "__main__":
-    solve()
+n = int(input())
+groups = {}
+for i in range(n):
+    parts = input().split()
+    groups[parts[0]] = parts[1:]
+q = input().split()
+gname = q[0]
+person = q[1]
+if person in groups[gname]:
+    print("Ha")
+else:
+    print("Yoq")
