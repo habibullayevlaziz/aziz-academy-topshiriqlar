@@ -1,6 +1,10 @@
 n = int(input())
-for _ in range(n):
-    satr = input().split()
-    ism = satr[0]
-    ball_yigindisi = sum(int(x) for x in satr[1:])
-    print(f"{ism} {ball_yigindisi}")
+students = []
+for i in range(n):
+    parts = input().split()
+    students.append({"ism": parts[0], "baholar": parts[1:]})
+for s in students:
+    total = 0
+    for b in s["baholar"]:
+        total += int(b)
+    print(s["ism"], total)
