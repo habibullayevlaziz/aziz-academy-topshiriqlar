@@ -1,6 +1,6 @@
-royxat = input().split()
-qidirilayotgan_element = input()
-if qidirilayotgan_element in royxat:
+items = set(input().split())
+q = input()
+if q in items:
     print("Ha")
 else:
     print("Yoq")
