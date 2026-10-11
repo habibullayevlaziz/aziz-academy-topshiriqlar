@@ -1,5 +1,11 @@
-toplam1 = set(map(int, input().split()))
-toplam2 = set(map(int, input().split()))
-umumiy_elementlar = toplam1.intersection(toplam2)
-natija = sorted(list(umumiy_elementlar))
-print(*(natija))
+a = set(input().split())
+b = set(input().split())
+inter = a & b
+nums = []
+for x in inter:
+    nums.append(int(x))
+nums.sort()
+res = []
+for x in nums:
+    res.append(str(x))
+print(" ".join(res))
