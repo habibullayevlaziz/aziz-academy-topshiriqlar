@@ -1,3 +1,9 @@
-kirish = input().split()
-takror = next((x for i, x in enumerate(kirish) if x in kirish[:i]), "yoq")
-print(takror)
+items = input().split()
+seen = set()
+ans = "yoq"
+for x in items:
+    if x in seen:
+        ans =  x
+        break
+    seen.add(x)
+print(ans)
