@@ -1,5 +1,12 @@
 n = int(input())
-daftar = dict(input().split() for _ in range(n))
-m = int(input())
-for _ in range(m):
-    print(daftar.get(input(), "topilmadi"))
+book = {}
+for i in range(n):
+    parts = input().split()
+    book[parts[0]] = parts[1]
+q = int(input())
+for i in range(q):
+    name = input()
+    if name in book:
+        print(book[name])
+    else:
+        print("topilmadi")
