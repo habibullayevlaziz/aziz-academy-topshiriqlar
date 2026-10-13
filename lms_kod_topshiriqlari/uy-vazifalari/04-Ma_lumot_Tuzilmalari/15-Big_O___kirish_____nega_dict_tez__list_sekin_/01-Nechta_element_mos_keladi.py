@@ -1,4 +1,7 @@
-katta_kolleksiya = set(input().split())
-tekshiriladiganlar = input().split()
-javob = sum(1 for x in tekshiriladiganlar if x in katta_kolleksiya)
-print(javob)
+a = set(input().split())
+b = input().split()
+count = 0
+for x in b:
+    if x in a:
+        count +=1
+print(count)
