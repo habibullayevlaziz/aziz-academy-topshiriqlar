@@ -1,4 +1,7 @@
-sonlar = list(map(int, input().split()))
-o_rtacha = sum(sonlar) / len(sonlar)
-natija = round(o_rtacha, 2)
-print(natija)
+nums = []
+for x in input().split():
+    nums.append(int(x))
+total = 0
+for x in nums:
+    total += x
+print(round(total / len(nums), 2))
