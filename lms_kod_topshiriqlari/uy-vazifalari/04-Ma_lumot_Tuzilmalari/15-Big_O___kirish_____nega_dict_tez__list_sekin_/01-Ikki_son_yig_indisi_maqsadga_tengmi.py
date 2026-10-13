@@ -1,3 +1,14 @@
-sonlar = list(map(int, input().split()))
+parts = input().split()
 target = int(input())
-print("Ha" if any(target - x in sonlar[:i] for i, x in enumerate(sonlar)) else "Yoq")
+seen = set()
+found = False
+for p in parts:
+    x = int(p)
+    if(target - x) in seen:
+        found = True
+        break
+    seen.add(x)
+if found:
+    print("Ha")
+else:
+    print("Yoq")
