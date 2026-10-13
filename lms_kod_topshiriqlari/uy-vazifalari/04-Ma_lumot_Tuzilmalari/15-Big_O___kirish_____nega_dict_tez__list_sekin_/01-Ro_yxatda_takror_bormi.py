@@ -1,2 +1,5 @@
-x = input().split()
-print("Ha" if len(x) != len(set(x)) else "Yoq")
+nums = input().split()
+if len(nums) != len(set(nums)):
+    print("Ha")
+else:
+    print("Yoq")
