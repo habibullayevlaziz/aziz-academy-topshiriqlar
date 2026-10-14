@@ -6,23 +6,23 @@
 
 `███████░░░░░░░░░░░░░` **34%**  (61/179 mavzu)
 
-- ⭐ Jami ball: **160487**
-- 📤 GitHubga yuborilgan topshiriqlar: **1468**
+- ⭐ Jami ball: **160722**
+- 📤 GitHubga yuborilgan topshiriqlar: **1469**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
-**MODUL 5 — Comprehensions** → **Dict comprehension — mapping va filtrlash**
+**MODUL 5 — Comprehensions** → **Dict comprehension - mapping va filtrlash**
 
-➡️ Keyingi mavzu: *Set comprehension — takrorlanmas natijalar*
+➡️ Keyingi mavzu: *Set comprehension - takrorlanmas natijalar*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
 
-- ✅ List comprehension — kirish ⭐ — [x for x in ...]
-- ✅ List comprehension — shartli — [x for x in ... if ...]
-- ✅ Dict comprehension — mapping va filtrlash  ← yetgan joyingiz
-- ⬜ Set comprehension — takrorlanmas natijalar
-- ⬜ 🛠 Amaliy: Ma'lumotni qayta ishlash — comprehension bilan tozalash
+- ✅ List comprehension - kirish ⭐ - [x for x in ...]
+- ✅ List comprehension - shartli - [x for x in ... if ...]
+- ✅ Dict comprehension - mapping va filtrlash  ← yetgan joyingiz
+- ⬜ Set comprehension - takrorlanmas natijalar
+- ⬜ 🛠 Amaliy: Ma'lumotni qayta ishlash - comprehension bilan tozalash
 
 </details>
 
@@ -53,4 +53,4 @@
 - `lms_yozma_topshiriqlari/` — yozma javoblar
 
 ---
-<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-10-13 17:48</sub>
+<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-10-14 09:08</sub>
